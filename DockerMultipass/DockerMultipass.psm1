@@ -73,7 +73,7 @@ function New-DmpInstance {
 		'--name', $Name
 		'--cpus', $Cpu
 		'--disk', $Disk
-		'--mem', $Memory
+		'--memory', $Memory
 		$Image
 	)
 
